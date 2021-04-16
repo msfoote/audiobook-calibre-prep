@@ -1,0 +1,3 @@
+call "<path to cloned repo>\audiobook-calibre-prep\.venv\Scripts\activate.bat"
+python "<path to cloned repo>\audiobook-calibre-prep\Zip_Files.py" -d="<directory >"
+PAUSE

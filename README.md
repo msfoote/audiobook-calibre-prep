@@ -27,3 +27,7 @@ This script takes in a single argument which is the parent directory where your 
 >Zip_Files.py -d="`Some Directory`"
 
 The script will ZIP up the contents of each directory and then delete the subdirectory. You will be left with initially specified directory containing a number of ZIP files. These you can then upload into Calibre to be shared how you wish. I currently use [Calibre-Web](https://github.com/janeczku/calibre-web)
+
+### `ZIP.bat.example`
+
+This example file should be copied as `<Filename>.bat`.  Upon modifying the text of the batch file you can run this program with a double click.
