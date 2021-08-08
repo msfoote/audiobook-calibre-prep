@@ -31,7 +31,7 @@ def main(directory=None):
                         if file.endswith(('.mp3', '.m4b', '.aa', '.aax', '.m4a', '.aac', '.m4p', '.ogg', '.wma', '.flac',
                                         '.alac', '.wav', 'm3u', '.py')):
                             test = os.path.join(directory, root, file)
-                            zip.write(test, os.path.basename(test))
+                            zip.write(test, os.path.join(bookname,file))
         shutil.rmtree(bookdir)
 
 if __name__ == "__main__":
